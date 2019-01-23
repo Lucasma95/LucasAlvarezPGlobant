@@ -13,7 +13,7 @@ public class D implements A , B{
     @Override
     public void gritar() {
 
-            System.out.println("SOY D Y ESTOY GRITANDO!!!!!!");
+            System.out.println("SOY D Y ESTOY GRITANDO!!!");
 
     }
 }
