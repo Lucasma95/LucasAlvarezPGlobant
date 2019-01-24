@@ -7,8 +7,11 @@ public class D implements A , B{
 
     @Override
     public void hablar() {
-        System.out.println("Soy D y estoy hablando");
+
+            System.out.println("Soy D y estoy hablando");
     }
+
+
 
     @Override
     public void gritar() {
