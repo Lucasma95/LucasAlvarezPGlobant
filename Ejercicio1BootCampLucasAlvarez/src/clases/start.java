@@ -17,18 +17,18 @@ public class start {
 
         //creo el ArrayList
 
-        ArrayList<A> lista = new ArrayList<A>();
+        ArrayList<A> list = new ArrayList<A>();
 
         //agrego los objetos a el ArrayList
 
-        lista.add(a);
-        lista.add(b);
-        lista.add(c);
-        lista.add(d);
+        list.add(a);
+        list.add(b);
+        list.add(c);
+        list.add(d);
 
         //Creo un "Iterator" lo recorro y Ejecuto el metodo "whoiam" de cada objeto
 
-        Iterator<A> it = lista.iterator();
+        Iterator<A> it = list.iterator();
 
         while(it.hasNext()){
             A obj = it.next();

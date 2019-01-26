@@ -6,7 +6,7 @@ public class C implements A{
     }
 
     @Override
-    public void hablar() {
+    public void talk() {
 
          System.out.println("Soy C y estoy hablando");
     }
