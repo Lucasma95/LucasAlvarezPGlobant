@@ -8,6 +8,6 @@ public class C implements A{
     @Override
     public void talk() {
 
-         System.out.println("Soy C y estoy hablando");
+         System.out.println("I am C and i am talking");
     }
 }
