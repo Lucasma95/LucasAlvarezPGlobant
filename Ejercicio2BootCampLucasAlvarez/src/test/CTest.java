@@ -7,50 +7,44 @@ import org.junit.Test;
 
 public class CTest {
 
-//----------------------------------------hablar por C ------------------------------------------
+//----------------------------------------talk by C ------------------------------------------
     @Test
-    public void hablarC() {
+    public void talkC() {
 
 
         C c = new C();
-        try {
-            c.hablar();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+
+            c.talk();
+
 
 
     }
 
 
 
-    //------------------------------------------hablar por D ------------------------------------
+    //------------------------------------------talk by D ------------------------------------
 
     @Test
-    public void hablarD(){
+    public void talkD(){
 
         D d = new D();
 
-        try {
-            d.hablar();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            d.talk();
+
 
     }
 
-    //------------------------------------------gritar por D ------------------------------------
+    //------------------------------------------scream by D ------------------------------------
 
 
     @Test
     public void gritarD(){
         D d = new D();
 
-        try {
-            d.gritar();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+            d.scream();
+
 
     }
 

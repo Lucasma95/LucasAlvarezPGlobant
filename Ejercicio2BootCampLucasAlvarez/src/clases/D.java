@@ -6,17 +6,17 @@ public class D implements A , B{
     }
 
     @Override
-    public void hablar() {
+    public void talk() {
 
-            System.out.println("Soy D y estoy hablando");
+            System.out.println("I am D and i am talking");
     }
 
 
 
     @Override
-    public void gritar() {
+    public void scream() {
 
-            System.out.println("SOY D Y ESTOY GRITANDO!!!");
+            System.out.println("I AM D AND I AM SCREAMING!!!");
 
     }
 }
